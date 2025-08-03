@@ -32,6 +32,7 @@ exec-once=fcitx5 -d --replace
 
 ## vsocodeもしくはMicrosoft Edgeを使っている場合は、.configに以下のファイルを追加
 - microsoft-edge-stable-flags.conf
+- visual-studio-code-bin-flags.conf
 - code-flags.conf
 
 内容は以下の通り
@@ -49,7 +50,7 @@ LC_ALL=C xdg-user-dirs-update --force
 
 ## enable Google Drive
 ```
- yay -S gnome-control-center gvfs gvfs-google gvfs-onedrive
+ yay -S gnome-control-center gvfs gvfs-google gvfs-onedrive seahorse
  ```
 
  ・コンソールでコマンドを実行
@@ -57,6 +58,8 @@ env XDG_CURRENT_DESKTOP=GNOME gnome-control-center --verbose
 
 ・オンラインアカウントでGoogleを追加
 ※、Onedriveは認証後にリダイレクトができなくて認証できない
+
+
 
 
 ## node.js
