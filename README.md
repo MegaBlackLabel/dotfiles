@@ -14,6 +14,11 @@ yay -S ttf-udev-gothic
 yay -S glow fcitx5-configtool
 ```
 
+## github login
+```
+gh login auth
+```
+
 ## fcitx5-configtool をコンソールで実行
 キーボード ‐ 日本語を選択
 キーボード ‐ 英語を削除
