@@ -46,6 +46,7 @@ exec-once=fcitx5 -d --replace
 --ozone-platform-hint=wayland
 --gtk-version=4
 --ignore-gpu-blocklist
+ --password-store=basic
 ```
 
 ## change folder name
